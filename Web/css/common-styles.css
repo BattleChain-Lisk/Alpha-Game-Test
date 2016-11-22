@@ -1,0 +1,141 @@
+html{
+    margin: 0 !important;
+    height: 100%;
+}
+body {
+    margin: 0 !important;
+    height: 100%;
+}
+
+#page {
+    background-image: url('../img/background.jpg');
+    background-size: cover;  
+}
+
+/**
+Header 
+*/
+#header {
+    /*background-color: rgba(240, 230, 140, .4);*/
+}
+#header-content {
+    padding-top: 5px;
+    padding-left: 25px;
+}
+.logo-left{
+    float: left;
+    font-style: oblique; 
+    font-weight: 900;
+}
+
+/**
+    USER INFO PANEL
+**/
+#user-info {
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-family: "josefin-sans", Verdanda, Tahoma;
+    font-weight: bold; 
+}
+
+#user-info .card {
+    min-height: 5.5em;
+    height: 5.5em;
+}
+
+.title {
+    font-family: "josefin-sans", Verdanda, Tahoma;
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+/**
+    BODY 
+**/
+body-content {
+    margin: 0 auto;
+    width: 60%;
+}
+
+footer{
+    color: grey;
+    background-color: #333;
+    min-height: 80px;
+    height: 80px;
+    width: 100%;  
+}
+
+footer ul {
+    margin-top: 15px;
+    list-style: none;
+    font-size: 0.9em;
+    font-weight: 00;
+    letter-spacing: 1px;
+}
+
+/**
+Common classes */
+.separator {
+    border: solid 3px #004C82;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0px;
+}
+
+.card{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),
+            0 2px 10px 0 rgba(0,0,0,.12);  
+}
+
+/** The transparent info panel **/
+.transp-info-panel {
+    font-family: "josefin-sans";
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.blue-separator{
+    display: block;
+    border: solid #004C82 1px;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.red-separator {
+    display: block;
+    border: solid red 1px;
+    text-align: center;
+    width: 5em;
+    margin: 0 auto;
+}
+
+.gold {
+    color: gold;
+}
+
+/** Best times style */
+.gold-time {
+    color: gold;
+    font-size: 1.4em;
+}
+
+.silver-time {
+    color: silver;
+    font-size: 1.4em;
+}
+
+.bronze-time{
+    color: rosybrown;
+    font-size: 1.4em;
+}

@@ -1,0 +1,55 @@
+#big-banner{
+    min-height: 600px;
+    background-image: url('../img/games-background-600.jpg');    
+    font-famili: "josefin-sans";
+    text-align: center;
+}
+
+#big-banner-content {
+    padding-top: 10em;
+    font-family: "Alfa Slab One", Verdana;
+    text-shadow: 2px 2px black;
+}
+
+#big-banner-content h1{
+    margin: 0;
+    font-size: 8rem;
+}
+
+.big-title{
+    color: white;
+    font-size: 8rem;
+}
+.small-title {
+    color: white;
+    font-size: 4em;
+}
+
+/**
+    THE INFO PANEL 
+**/
+#info-panel{
+    background-color: rgba(0,0,0, .2);
+    min-height: 400px;
+    font-family: "josefin-sans";
+}
+
+.game {
+    font-size: 1.4em;
+}
+.game img{
+    height: 120px;
+    width: 140px;
+    min-height: 120px;
+    min-width: 140px;
+    max-height: 120px;
+    max-width: 140px;
+     box-shadow: 0 2px 8px 0 rgba(0,0,0,.8),
+            0 2px 14px 0 rgba(0,0,0,.7); 
+}
+.game a:hover img{
+ opacity: 0.7;
+}
+.game p a:link{
+    text-decoration: none;
+}
